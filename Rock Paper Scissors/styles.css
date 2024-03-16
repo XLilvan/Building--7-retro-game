@@ -52,3 +52,20 @@ button {
 button:hover {
     background-color: #EF4444;
 }
+
+@media screen and (min-width: 992px) {
+    #scoreboard {
+        height: 60%;
+    }
+
+    #choices {
+        flex-direction: row;
+        align-items: center;
+        height: 40%;
+    }
+
+    button {
+        width: calc((100% - 32px - 12px) / 3);
+        height: 35%;
+    }
+}
